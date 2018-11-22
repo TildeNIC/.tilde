@@ -1,0 +1,16 @@
+;
+; BIND data file for master.tilde 
+;
+$TTL    604802
+@       IN      SOA     master.tilde. root.master.tilde. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       192.168.1.10
+;
+@       IN      NS      master.tilde.
+@       IN      A       192.168.1.10
+@       IN      AAAA    ::1
+ns      IN      A       192.168.1.10
