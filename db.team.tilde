@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     team.tilde. root.team.tilde. (
-                              1         ; Serial
+                        2018112202      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -16,4 +16,4 @@ $TTL    604802
 @       IN      AAAA    2a01:4f8:231:24f::2
 *       IN      AAAA    2a01:4f8:231:24f::2
 ns      IN      A       139.59.215.24
-mx	IN	A	mail.tilde.team
+@	IN	MX	10 mail.tilde.team.

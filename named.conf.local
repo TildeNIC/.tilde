@@ -15,3 +15,9 @@ zone "team.tilde" {
 	type master;
 	file "/etc/bind/db.team.tilde";
 };
+
+zone "your.tilde" {
+    type forward;
+    forward only;
+    forwarders { 149.56.184.112; };
+};
