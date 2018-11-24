@@ -20,3 +20,8 @@ zone "your.tilde" IN {
     type forward; 
     forwarders { 149.56.184.112; };
 };
+
+zone "chat.tilde" {
+	tpye master;
+	file "/etc/bind/db.chat.tilde";
+};
