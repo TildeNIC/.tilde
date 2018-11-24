@@ -1,0 +1,16 @@
+;
+; BIND data file for your.tilde
+;
+$TTL    604802
+@       IN      SOA     your.tilde. root.your.tilde. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       142.44.251.173
+;
+@       IN      NS      master.tilde.
+@	IN	NS	tildedns.yourtilde.com.
+@       IN      A       142.44.251.173
+mail	IN	A	142.44.251.173

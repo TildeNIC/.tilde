@@ -17,11 +17,11 @@ zone "team.tilde" {
 };
 
 zone "your.tilde" IN {
-    type forward; 
-    forwarders { 149.56.184.112; };
+	type master; 
+	file "/etc/bind/db.your.tilde";
 };
 
 zone "chat.tilde" {
-	tpye master;
+	type master;
 	file "/etc/bind/db.chat.tilde";
 };
