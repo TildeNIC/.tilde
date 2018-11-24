@@ -11,9 +11,12 @@ options {
 	// the all-0's placeholder.
 
 	 forwarders {
-	 	198.206.14.241;
-		50.116.17.96;
+	 	172.98.193.42;	
+		198.206.14.241;	
 	 };
+		allow-recursion { any; };
+     		allow-query { any; };
+     		allow-query-cache { any; };
 
 	//========================================================================
 	// If BIND logs error messages about the root key being expired,
