@@ -10,7 +10,11 @@ $TTL    604802
                          604800 )       ; Negative Cache TTL
         IN      A       142.44.251.173
 ;
-@       IN      NS      master.tilde.
-@	IN	NS	tildedns.yourtilde.com.
+@       IN      NS      ns1.master.tilde.
+@		IN		NS		ns2.master.tilde.
+@		IN		NS		ns3.master.tilde.
+@		IN		NS		ns4.master.tilde.
 @       IN      A       142.44.251.173
-mail	IN	A	142.44.251.173
+@		IN		AAAA	2607:5300:60:6e94::10
+mail	IN	    A	    142.44.251.173
+mail	IN	    AAAA	2607:5300:60:6e94::10
