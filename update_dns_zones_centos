@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd /var/tilde
+
+git pull
+
+cp db.*.* /etc/bind/
+cp named.conf.* /etc/bind/
+cp named.conf /etc/
+
+systemctl reload named
