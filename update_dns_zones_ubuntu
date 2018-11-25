@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cd /var/tilde/
+
+git pull
+
+cp /var/tilde/db* /etc/bind/
+
+cp /var/tilde/named.conf.* /etc/bind/
+
+systemctl reload bind9
