@@ -9,10 +9,13 @@ $TTL    604802
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
 ;
-ns	IN	A	139.59.215.24
-@	IN	NS	master.tilde.
-@	IN	A	195.201.242.48
-irc	IN	A	195.201.242.48
-irc	IN	A	71.19.146.164
-irc	IN	A	104.225.221.249
-irc	IN	A	142.44.251.173
+	IN	NS		ns1.master.tilde.
+	IN	NS		ns2.master.tilde.
+	IN	NS		ns3.master.tilde.
+	IN	NS		ns4.master.tilde.
+
+@	IN	A		195.201.242.48
+irc	IN	A		195.201.242.48
+irc	IN	A		71.19.146.164
+irc	IN	A		104.225.221.249
+irc	IN	A		142.44.251.173
