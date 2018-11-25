@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     chat.tilde. root.chat.tilde. (
-                        2018112301      ; Serial
+                        2018112401      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire

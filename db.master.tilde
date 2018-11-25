@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     master.tilde. root.master.tilde. (
-                        2018112501     ; Serial
+                        2018112502     ; Serial
                         604800         ; Refresh
                         86400          ; Retry
                         2419200        ; Expire
@@ -21,3 +21,4 @@ ns3	IN	A		66.42.77.29
 ns3	IN	AAAA		2001:19f0:8001:1db5:5400:01ff:fec5:fece
 ns4	IN	A		144.202.23.174
 ns4	IN	AAAA		2001:19f0:5401:1119:5400:01ff:fec6:59db
+
