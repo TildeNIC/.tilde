@@ -25,3 +25,8 @@ zone "chat.tilde" {
 	type master;
 	file "/etc/bind/db.chat.tilde";
 };
+
+zone "cosmic.tilde" {
+	type master;
+	file "/etc/bind/db.cosmic.tilde";
+};
