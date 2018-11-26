@@ -11,8 +11,8 @@ options {
 	// the all-0's placeholder.
 
 	 forwarders {
-	 	172.98.193.42;	
-		198.206.14.241;	
+	 //	172.98.193.42;	
+	//	198.206.14.241;	
 	 };
 		allow-recursion { any; };
 		allow-query { any; };
