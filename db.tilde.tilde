@@ -1,0 +1,18 @@
+;
+; BIND data file for master.tilde 
+;
+$TTL    604802
+@       IN      SOA     master.tilde. root.master.tilde. (
+                        2018120101     ; Serial
+                        604800         ; Refresh
+                        86400          ; Retry
+                        2419200        ; Expire
+                        604800 )       ; Negative Cache TTL
+	IN	A	139.59.215.24 
+;
+	IN	NS		ns1.master.tilde.
+	IN	NS		ns2.master.tilde.
+	IN	NS		ns3.master.tilde.
+	IN	NS		ns4.master.tilde.
+
+@	IN	A		139.59.215.24
