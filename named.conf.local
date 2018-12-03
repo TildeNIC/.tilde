@@ -36,7 +36,7 @@ zone "ubergeek.tilde" {
 	file "/etc/bind/db.ubergeek.tilde";
 };
 
-zone "ubergeek.tilde" {
+zone "tilde.tilde" {
 	type master;
 	file "/etc/bind/db.tilde.tilde";
 };
