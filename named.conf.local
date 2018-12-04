@@ -40,3 +40,14 @@ zone "tilde.tilde" {
 	type master;
 	file "/etc/bind/db.tilde.tilde";
 };
+
+zone "thunix.tilde" {
+	type forward;
+	forward only;
+	forwarders {
+		50.23.197.94;
+		208.43.71.243;
+		69.197.18.162;
+		70.39.97.253;
+	};
+};
