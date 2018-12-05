@@ -41,10 +41,10 @@ zone "tilde.tilde" {
 	file "/etc/bind/db.tilde.tilde";
 };
 
-zone "thunix.tilde" {
-	type forward;
-	forward only;
-	forwarders {
+zone "thunix.tilde" IN {
+	type stub;
+	file "/etc/bind/db.thunix.tilde";
+	masters { 		
 		50.23.197.94;
 		208.43.71.243;
 		69.197.18.162;
