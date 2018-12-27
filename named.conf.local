@@ -41,6 +41,11 @@ zone "tilde.tilde" {
 	file "/etc/bind/db.tilde.tilde";
 };
 
+zone "town.tilde" {
+	type master;
+	file "/etc/bind/db.town.tilde";
+};
+
 zone "thunix.tilde" IN {
 	type stub;
 	file "/etc/bind/db.thunix.tilde";
