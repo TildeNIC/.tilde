@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     chat.tilde. root.chat.tilde. (
-                        2018112401      ; Serial
+                        2018122802      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -21,3 +21,4 @@ irc	IN	A		104.225.221.249
 irc	IN	A		142.44.251.173
 irc	IN	A		172.93.50.135
 irc	IN	A		104.238.186.103
+irc	IN	A		116.203.17.87
