@@ -56,3 +56,14 @@ zone "thunix.tilde" IN {
 		70.39.97.253;
 	};
 };
+
+zone "institute.tilde" {
+	type master;
+	file "/etc/bind/db.institute.tilde";
+};
+
+zone "crawl.tilde" {
+	type master;
+	file "/etc/bind/db.crawl.tilde";
+};
+
