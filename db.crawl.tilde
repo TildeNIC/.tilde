@@ -1,0 +1,20 @@
+;
+; BIND data file for crawl.tilde 
+;
+$TTL    604802
+@       IN      SOA     crawl.tilde. root.crawl.tilde. (
+                        2018122801      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       116.203.40.7
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns3.master.tilde.
+		IN	NS		ns4.master.tilde.
+
+@       IN      A       116.203.40.7
+*       IN      A       116.203.40.7
