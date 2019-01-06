@@ -1,9 +1,9 @@
 ;
-; BIND data file for team.tilde 
+; BIND data file for jan6.tilde 
 ;
 $TTL    604802
-@       IN      SOA     jan6.tilde. root.jan6.tilde. (
-                        2019010601      ; Serial
+@       IN      SOA     master.tilde. root.master.tilde. (
+                        2019010602      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
