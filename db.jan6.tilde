@@ -1,0 +1,23 @@
+;
+; BIND data file for team.tilde 
+;
+$TTL    604802
+@       IN      SOA     jan6.tilde. root.jan6.tilde. (
+                        2019010601      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+	IN	A	95.216.149.228
+;
+	IN	NS		ns1.master.tilde.
+	IN	NS		ns2.master.tilde.
+	IN	NS		ns3.master.tilde.
+	IN	NS		ns4.master.tilde.
+
+@	IN	A		95.216.149.228
+*	IN	A		95.216.149.228
+
+@	IN	AAAA		2a01:4f9:c010:d2e::1
+*	IN	AAAA		2a01:4f9:c010:d2e::1
