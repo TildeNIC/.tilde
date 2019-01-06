@@ -1,0 +1,21 @@
+;
+; BIND data file for amcclure.tilde 
+;
+$TTL    604802
+@       IN      SOA     master.tilde. root.master.tilde. (
+                        2019010602      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+        IN  A       159.203.172.211
+;
+        IN	NS      ns1.master.tilde.
+        IN	NS      ns2.master.tilde.
+        IN	NS      ns3.master.tilde.
+        IN	NS      ns4.master.tilde.
+
+@       IN	A       159.203.172.211
+www     IN	A       159.203.172.211
+ftp     IN	A       159.203.172.211
