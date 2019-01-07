@@ -72,3 +72,7 @@ zone "kneezle.tilde" {
 	file "/etc/bind/db.kneezle.tilde";
 };
 
+zone "amcclure.tilde" {
+	type master;
+	file "/etc/bind/db.amcclure.tilde";
+};
