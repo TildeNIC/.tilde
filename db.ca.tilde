@@ -1,0 +1,18 @@
+;
+; BIND data file for the pending new CA. not sure where to point yet so not in main files, just reserved 
+; note - this domain was claimed by kneezle - please contact him before changing/removing
+;
+$TTL    604802
+@       IN      SOA     CA.tilde. root.CA.tilde. (
+                        2019010701      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+	IN	NS		ns1.master.tilde.
+	IN	NS		ns2.master.tilde.
+	IN	NS		ns3.master.tilde.
+	IN	NS		ns4.master.tilde.
+
+@	IN	A		54.69.163.190
