@@ -67,3 +67,8 @@ zone "crawl.tilde" {
 	file "/etc/bind/db.crawl.tilde";
 };
 
+zone "kneezle.tilde" {
+	type master;
+	file "/etc/bind/db.kneezle.tilde";
+};
+
