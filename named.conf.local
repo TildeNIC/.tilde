@@ -76,3 +76,8 @@ zone "amcclure.tilde" {
 	type master;
 	file "/etc/bind/db.amcclure.tilde";
 };
+
+zone "jan6.tilde" {
+	type master;
+	file "/etc/bind/db.jan6.tilde";
+};
