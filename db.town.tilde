@@ -3,16 +3,16 @@
 ;
 $TTL    604802
 @       IN      SOA     town.tilde. town.your.tilde. (
-                              1         ; Serial
+                    2019011502         ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
-        IN      A       54.69.163.190
+        IN      A       104.248.107.166
 ;
 @       IN      NS      ns1.master.tilde.
 @		IN		NS		ns2.master.tilde.
 @		IN		NS		ns3.master.tilde.
 @		IN		NS		ns4.master.tilde.
-@       IN      A       54.69.163.190
-cgi		IN	    A	    54.69.163.190
+@       IN      A       104.248.107.166
+cgi		IN	    A	    104.248.107.166
