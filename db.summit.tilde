@@ -1,0 +1,25 @@
+;
+; BIND data file for summit.tilde 
+;
+$TTL    604802
+@       IN      SOA     master.tilde. root.master.tilde. (
+                        2019010601      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+        IN  A       107.206.239.11
+;
+        IN	NS      ns1.master.tilde.
+        IN	NS      ns2.master.tilde.
+        IN	NS      ns3.master.tilde.
+        IN	NS      ns4.master.tilde.
+
+@       IN	A       107.206.239.11
+www     IN	A       107.206.239.11
+ftp     IN	A       107.206.239.11
+gopher     IN	A       107.206.239.11
+download     IN	A       107.206.239.11
+tilde     IN	A       107.206.239.11
+ca     IN	A       107.206.239.11
