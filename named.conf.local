@@ -86,3 +86,8 @@ zone "summit.tilde" {
 	type master;
 	file "/etc/bind/db.summit.tilde";
 };
+
+zone "domain.tilde" {
+	type master;
+	file "/etc/bind/db.summit.tilde";
+};
