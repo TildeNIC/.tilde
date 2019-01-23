@@ -81,3 +81,8 @@ zone "jan6.tilde" {
 	type master;
 	file "/etc/bind/db.jan6.tilde";
 };
+
+zone "summit.tilde" {
+	type master;
+	file "/etc/bind/db.summit.tilde";
+};
