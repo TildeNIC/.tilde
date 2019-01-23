@@ -14,4 +14,4 @@ $TTL    604802
 	IN	NS		ns3.master.tilde.
 	IN	NS		ns4.master.tilde.
 
-@	IN	A		54.69.163.190
+@	IN	A		107.206.239.11
