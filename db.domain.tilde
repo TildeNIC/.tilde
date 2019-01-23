@@ -1,9 +1,9 @@
 ;
-; BIND data file for ca.tilde 
+; BIND data file for domain.tilde 
 ;
 $TTL    604802
 @       IN      SOA     master.tilde. root.master.tilde. (
-                        2019012302      ; Serial
+                        2019012303      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
