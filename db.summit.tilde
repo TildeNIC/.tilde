@@ -17,3 +17,5 @@ $TTL    604802
         IN	NS      ns4.master.tilde.
 
 @       IN	A       107.206.239.11
+ca       IN	A       107.206.239.11
+domain       IN	A       107.206.239.11
