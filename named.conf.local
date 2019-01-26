@@ -96,3 +96,8 @@ zone "ca.tilde" {
 	type master;
 	file "/etc/bind/db.ca.tilde";
 };
+
+zone "os.tilde" {
+	type master;
+	file "/etc/bind/db.os.tilde";
+};
