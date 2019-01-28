@@ -16,6 +16,21 @@ zone "team.tilde" {
 	file "/etc/bind/db.team.tilde";
 };
 
+zone "git.tilde" {
+	type master;
+	file "/etc/bind/db.git.tilde";
+};
+
+zone "news.tilde" {
+	type master;
+	file "/etc/bind/db.news.tilde";
+};
+
+zone "ci.tilde" {
+	type master;
+	file "/etc/bind/db.ci.tilde";
+};
+
 zone "your.tilde" {
 	type master; 
 	file "/etc/bind/db.your.tilde";
