@@ -31,6 +31,16 @@ zone "ci.tilde" {
 	file "/etc/bind/db.ci.tilde";
 };
 
+zone "mastodon.tilde" {
+	type master;
+	file "/etc/bind/db.mastodon.tilde";
+};
+
+zone "pleroma.tilde" {
+	type master;
+	file "/etc/bind/db.pleroma.tilde";
+};
+
 zone "your.tilde" {
 	type master; 
 	file "/etc/bind/db.your.tilde";
