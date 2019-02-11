@@ -101,3 +101,13 @@ zone "os.tilde" {
 	type master;
 	file "/etc/bind/db.os.tilde";
 };
+
+zone "wiki.tilde" {
+	type master;
+	file "/etc/bind/db.wiki.tilde";
+};
+
+zone "forums.tilde" {
+	type master;
+	file "/etc/bind/db.forums.tilde";
+};
