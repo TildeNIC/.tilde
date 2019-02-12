@@ -111,3 +111,8 @@ zone "forums.tilde" {
 	type master;
 	file "/etc/bind/db.forums.tilde";
 };
+
+zone "search.tilde" {
+	type master;
+	file "/etc/bind/db.search.tilde";
+};
