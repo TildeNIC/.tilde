@@ -1,0 +1,20 @@
+;
+; BIND data file for aussie.tilde 
+;
+$TTL    604802
+@       IN      SOA     aussies.tilde. root.aussies.tilde. (
+                        2019030201      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       149.28.186.154
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns3.master.tilde.
+		IN	NS		ns4.master.tilde.
+
+@       IN      A       149.28.186.154
+*       IN      A       149.28.186.154
