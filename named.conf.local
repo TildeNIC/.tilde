@@ -26,6 +26,11 @@ zone "news.tilde" {
 	file "/etc/bind/db.news.tilde";
 };
 
+zone "nic.tilde" {
+	type master;
+	file "/etc/bind/db.nic.tilde";
+};
+
 zone "ci.tilde" {
 	type master;
 	file "/etc/bind/db.ci.tilde";
