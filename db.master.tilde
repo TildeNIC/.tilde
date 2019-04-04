@@ -14,7 +14,6 @@ $TTL    604802
 	IN	NS		ns2.master.tilde.
 	IN	NS		ns3.master.tilde.
 	IN	NS		ns4.master.tilde.
-	IN	NS		ns5.master.tilde.
 
 @	IN	A		139.59.215.24 
 @	IN	AAAA		2a03:b0c0:3:d0::d91:5001 
@@ -26,5 +25,3 @@ ns3	IN	A		66.42.77.29
 ns3	IN	AAAA		2001:19f0:8001:1db5:5400:01ff:fec5:fece
 ns4	IN	A		144.202.23.174
 ns4	IN	AAAA		2001:19f0:5401:1119:5400:01ff:fec6:59db
-ns5	IN	A		206.189.127.74
-ns5	IN	AAAA		2a03:b0c0:1:e0::3bd:1001
