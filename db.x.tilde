@@ -1,8 +1,8 @@
 ;
 ; BIND data file for cosmic.tilde 
 ;
-$TTL    604802
-@       IN      SOA     tildex.tilde. root.tildex.tilde. (
+TTL    604802
+@       IN      SOA     x.tilde. root.x.tilde. (
                         2019041003      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
