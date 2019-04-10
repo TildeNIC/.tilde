@@ -1,0 +1,30 @@
+;
+; BIND data file for cosmic.tilde 
+;
+TTL    604802
+@       IN      SOA     x.tilde. root.x.tilde. (
+                        2019041003      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       104.236.110.106
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns3.master.tilde.
+		IN	NS		ns4.master.tilde.
+		IN	NS		ns5.master.tilde.
+
+@               IN      A       104.236.110.106
+*               IN      A       104.236.110.106
+www             IN      A       104.236.110.106
+ae01            IN      A       104.236.110.106
+ae02            IN      A       159.89.238.51
+summit          IN      A       107.206.239.11
+hejmlando       IN      A       172.106.88.122
+prapatro        IN      A       195.201.102.241
+*.summit        IN      A       107.206.239.11
+*.hejmlando     IN      A       172.106.88.122
+*.prapatro      IN      A       195.201.102.241
