@@ -117,16 +117,6 @@ zone "summit.tilde" {
 	file "/etc/bind/db.summit.tilde";
 };
 
-zone "domain.tilde" {
-	type master;
-	file "/etc/bind/db.domain.tilde";
-};
-
-zone "ca.tilde" {
-	type master;
-	file "/etc/bind/db.ca.tilde";
-};
-
 zone "os.tilde" {
 	type master;
 	file "/etc/bind/db.os.tilde";
