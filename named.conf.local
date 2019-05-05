@@ -31,6 +31,11 @@ zone "nic.tilde" {
 	file "/etc/bind/db.nic.tilde";
 };
 
+zone "ca.tilde" {
+	type master;
+	file "/etc/bind/db.ca.tilde";
+};
+
 zone "ci.tilde" {
 	type master;
 	file "/etc/bind/db.ci.tilde";
