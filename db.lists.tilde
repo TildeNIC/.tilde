@@ -8,7 +8,7 @@ $TTL    604802
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
-        IN      A       195.201.242.48
+        IN      A       51.79.32.48
 ;
 
 		IN	NS		ns1.master.tilde.
@@ -16,9 +16,9 @@ $TTL    604802
 		IN	NS		ns3.master.tilde.
 		IN	NS		ns4.master.tilde.
 
-@       IN      A       195.201.242.48
-*       IN      A       195.201.242.48
+@       IN      A       51.79.32.48
+*       IN      A       51.79.32.48
 ssh     IN      A       195.201.242.2
-@       IN      AAAA    2a01:4f8:231:24f::2
-*       IN      AAAA    2a01:4f8:231:24f::2
+@       IN      AAAA    2607:5300:60:823f::48
+*       IN      AAAA    2607:5300:60:823f::48
 @		IN	MX	10 mail.tilde.team.
