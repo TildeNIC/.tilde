@@ -136,3 +136,8 @@ zone "search.tilde" {
 	type master;
 	file "/etc/bind/db.search.tilde";
 };
+
+zone "cutie.tilde" {
+	type master;
+	file "/etc/bind/db.cutie.tilde";
+};
