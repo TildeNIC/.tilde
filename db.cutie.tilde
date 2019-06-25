@@ -1,0 +1,21 @@
+;
+; BIND data file for cutie.tilde 
+;
+$TTL    604802
+@       IN      SOA     cutie.tilde. root.cutie.tilde. (
+                        2018112601      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       67.252.41.31
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns5.master.tilde.
+
+@       IN      A       67.252.41.31
+*       IN      A       67.252.41.31
+beta	IN		A		104.248.2.237
+beta	IN		AAAA	2604:a880:800:c1::91:a001
