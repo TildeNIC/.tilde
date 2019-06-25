@@ -1,0 +1,22 @@
+;
+; BIND data file for cutie.tilde 
+;
+$TTL    604802
+@       IN      SOA     cutie.tilde. root.cutie.tilde. (
+                        2018112601      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       67.252.41.31
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns5.master.tilde.
+
+@       IN      A       95.216.168.114
+*       IN      A       2a01:4f9:c010:1e45::1
+@       IN  MX  10 mail.cutie.services.
+mail._domainkey       IN  TXT "v=DKIM1; k=rsa; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKUjIU1buqFIW0s6KIK+lvFKti3II8zJI4zR6ZQ4PMFP3oGfq9giDHTJ3bDMe5MUm19cIlSH5POSGgFtuSYFirc3fnxtZxD8N+7ErOaMI2Q8aHZsuUElqM2i5OK884Z5lkg13Q8u/yKgMUMjiO6NPF/waJ8zgeps+Mm5Sb2RYqNQIDAQAB"
+@       IN      TXT     "v=spf1 mx a -all"
