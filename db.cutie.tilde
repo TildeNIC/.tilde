@@ -15,7 +15,8 @@ $TTL    604802
 		IN	NS		ns2.master.tilde.
 		IN	NS		ns5.master.tilde.
 
-@       IN      A       67.252.41.31
-*       IN      A       67.252.41.31
-beta	IN		A		104.248.2.237
-beta	IN		AAAA	2604:a880:800:c1::91:a001
+@       IN      A       95.216.168.114
+*       IN      A       2a01:4f9:c010:1e45::1
+@       IN  MX  10 mail.cutie.services.
+mail._domainkey       IN  TXT "v=DKIM1; k=rsa; " "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKUjIU1buqFIW0s6KIK+lvFKti3II8zJI4zR6ZQ4PMFP3oGfq9giDHTJ3bDMe5MUm19cIlSH5POSGgFtuSYFirc3fnxtZxD8N+7ErOaMI2Q8aHZsuUElqM2i5OK884Z5lkg13Q8u/yKgMUMjiO6NPF/waJ8zgeps+Mm5Sb2RYqNQIDAQAB"
+@       IN      TXT     "v=spf1 mx a -all"
