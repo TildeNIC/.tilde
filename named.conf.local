@@ -141,3 +141,8 @@ zone "cutie.tilde" {
 	type master;
 	file "/etc/bind/db.cutie.tilde";
 };
+
+zone "global.tilde" {
+	type master;
+	file "/etc/bind/db.global.tilde";
+};
