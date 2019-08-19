@@ -11,49 +11,14 @@ zone "master.tilde" {
 	file "/etc/bind/db.master.tilde";
 };
 
-zone "team.tilde" {
-	type master;
-	file "/etc/bind/db.team.tilde";
-};
-
-zone "git.tilde" {
-	type master;
-	file "/etc/bind/db.git.tilde";
-};
-
-zone "news.tilde" {
-	type master;
-	file "/etc/bind/db.news.tilde";
-};
-
 zone "nic.tilde" {
 	type master;
 	file "/etc/bind/db.nic.tilde";
 };
 
-zone "ci.tilde" {
-	type master;
-	file "/etc/bind/db.ci.tilde";
-};
-
-zone "mastodon.tilde" {
-	type master;
-	file "/etc/bind/db.mastodon.tilde";
-};
-
-zone "pleroma.tilde" {
-	type master;
-	file "/etc/bind/db.pleroma.tilde";
-};
-
 zone "your.tilde" {
 	type master; 
 	file "/etc/bind/db.your.tilde";
-};
-
-zone "chat.tilde" {
-	type master;
-	file "/etc/bind/db.chat.tilde";
 };
 
 zone "cosmic.tilde" {

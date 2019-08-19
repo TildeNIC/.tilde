@@ -1,0 +1,40 @@
+zone "team.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "git.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "news.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "ci.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "lists.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "mastodon.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "pleroma.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
+zone "chat.tilde" {
+        type slave;
+        masters { 51.79.32.63; };
+};
+
