@@ -5,8 +5,8 @@
 ;; SOA Record
 tilde.best.     3600    IN      SOA     tilde.best. root.tilde.best. 2031808184 7200 3600 86400 3600
 
-		IN	NS		ns1.tildeverse.org.
-		IN	NS		ns2.tildeverse.org.
+		IN	NS		ns1.tildenic.org.
+		IN	NS		ns2.tildenic.org.
 
 ;; A Records
 tilde.best.     120     IN      A       51.15.111.54
