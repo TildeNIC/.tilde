@@ -121,3 +121,8 @@ zone "tilde.best" {
 	type master;
 	file "/etc/bind/db.tilde.best";
 };
+
+zone "ca.tilde" {
+	type master;
+	file "/etc/bind/db.ca.tilde";
+};
