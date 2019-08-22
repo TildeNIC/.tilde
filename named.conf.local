@@ -116,3 +116,8 @@ zone "best.tilde" {
 	type master;
 	file "/etc/bind/db.best.tilde";
 };
+
+zone "tilde.best" {
+	type master;
+	file "/etc/bind/db.tilde.best";
+};
