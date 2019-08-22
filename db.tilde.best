@@ -1,0 +1,24 @@
+;
+; BIND data file for aussie.tilde 
+;
+
+;; SOA Record
+tilde.best.     3600    IN      SOA     tilde.best. root.tilde.best. 2031808184 7200 3600 86400 3600
+
+		IN	NS		ns1.tildeverse.org.
+		IN	NS		ns2.tildeverse.org.
+
+;; A Records
+tilde.best.     120     IN      A       51.15.111.54
+
+;; CNAME Records
+*.tilde.best.   120     IN      CNAME   tilde.best.
+
+;; MX Records
+mail.tilde.best.        120     IN      MX      1 51.15.111.54.
+tilde.best.     120     IN      MX      1 51.15.111.54.
+
+;; TXT Records
+201908._domainkey.tilde.best.   120     IN      TXT     "v=DKIM1; h=SHA256; k=rsa; s=email; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAu92Ss9MT10STEs7WzQnfgSwFycUkDERVA/jnTsOxpjosnCDKMw3vNBoENz2ETRp8YxZY1xq1HNxodN44QSJAqebWkinbIZ6o7CV5q9FzjWQ8Y6VsXs1inn/5VUQRVL+hoPJlHxOsI69A0uUyDzYFKLW60+UjIwXfiaucG3D9its/JxiHZS+1/wBxq7kHAnFsqahu9OeZnx6DFz"
+_acme-challange.tilde.best.     120     IN      TXT     "XPXg-8P9c2JNT7566xCXwBoYJmiIdmR-aGbkFxMtcW0"
+tilde.best.     120     IN      TXT     "v=spf1 mx -all"
