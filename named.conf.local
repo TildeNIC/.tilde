@@ -117,17 +117,7 @@ zone "best.tilde" {
 	file "/etc/bind/db.best.tilde";
 };
 
-zone "tilde.best" {
-	type master;
-	file "/etc/bind/db.tilde.best";
-};
-
 zone "ca.tilde" {
 	type master;
 	file "/etc/bind/db.ca.tilde";
-};
-
-zone "thunix.net" {
-	type master;
-	file "/etc/bind/db.thunix.net";
 };
