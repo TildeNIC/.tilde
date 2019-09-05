@@ -16,4 +16,4 @@ $TTL    604802
 		IN	NS		ns5.master.tilde.
 
 @       IN	A	10.0.0.5
-@       IN	MX  10 10.0.0.5 
+@       IN	MX	10 thunix.tilde. 
