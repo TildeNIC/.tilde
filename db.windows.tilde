@@ -1,9 +1,9 @@
     ;
-    ; BIND data file for best.tilde 
+    ; BIND data file for windows.tilde 
     ;
     $TTL    604802
     @       IN      SOA     windows.tilde. root.windows.tilde. (
-                            2019012303      ; Serial
+                            2019090501      ; Serial
                              604800         ; Refresh
                               86400         ; Retry
                             2419200         ; Expire
