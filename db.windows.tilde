@@ -1,8 +1,8 @@
-    ;
-    ; BIND data file for windows.tilde 
-    ;
-    $TTL    604802
-    @       IN      SOA     windows.tilde. root.windows.tilde. (
+;
+; BIND data file for windows.tilde 
+;
+$TTL    604802
+@       IN      SOA     windows.tilde. root.windows.tilde. (
                             2019090501      ; Serial
                              604800         ; Refresh
                               86400         ; Retry
@@ -11,9 +11,9 @@
     ;
             IN  A       147.194.15.196
     ;
-            IN	NS      ns1.master.tilde.
-            IN	NS      ns2.master.tilde.
-            IN	NS      ns5.master.tilde.
+IN	NS      ns1.master.tilde.
+IN	NS      ns2.master.tilde.
+IN	NS      ns5.master.tilde.
 
-    @       IN	A       147.194.15.196
-    *       IN	A       147.194.15.196
+@       IN	A       147.194.15.196
+*       IN	A       147.194.15.196
