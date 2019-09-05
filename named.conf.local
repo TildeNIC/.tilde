@@ -120,3 +120,4 @@ zone "windows.tilde" {
 	type master;
 	file "/etc/bind/db.windows.tilde";
 };
+
