@@ -1,0 +1,19 @@
+;
+; BIND data file for thunix.tilde 
+;
+$TTL    604802
+@       IN      SOA     thunix.tilde. root.thunix.tilde. (
+                        2019090501      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       10.0.0.5
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns5.master.tilde.
+
+@       IN	A	10.0.0.5
+@       IN	MX  10 10.0.0.5 
