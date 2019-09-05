@@ -115,3 +115,8 @@ zone "ca.tilde" {
 	type master;
 	file "/etc/bind/db.ca.tilde";
 };
+
+zone "windows.tilde" {
+	type master;
+	file "/etc/bind/db.windows.tilde";
+};
