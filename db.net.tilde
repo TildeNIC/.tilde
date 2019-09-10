@@ -1,0 +1,30 @@
+;
+; BIND data file for net.tilde 
+;
+$TTL    604802
+@       IN      SOA     net.tilde. root.net.tilde. (
+                        2019091001      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       10.0.0.5
+;
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+
+@                IN	A	10.0.0.1
+*                IN A 10.0.0.1
+paranoid         IN A	10.0.0.1
+summit           IN A	10.0.0.2
+best             IN A	10.0.0.3
+
+thunix           IN A	10.0.0.5
+pink             IN A	10.0.0.10
+
+thebackupbox	   IN A 10.0.0.41
+
+team             IN A	10.0.0.48
+
+radiofreqs       IN A 10.0.0.73

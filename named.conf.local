@@ -121,3 +121,7 @@ zone "windows.tilde" {
 	file "/etc/bind/db.windows.tilde";
 };
 
+zone "net.tilde" {
+	type master;
+	file "/etc/bind/db.net.tilde";
+};
