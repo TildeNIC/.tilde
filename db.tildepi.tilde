@@ -1,0 +1,20 @@
+;
+; BIND data file for tildepi.tilde 
+;
+$TTL    604802
+@       IN      SOA     tildepi.tilde. root.tildepi.tilde. (
+                        2019091101      ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+        IN      A       10.0.0.99
+
+
+		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
+		IN	NS		ns5.master.tilde.
+
+@		IN	A	10.0.0.99
+@		IN	MX	10 tildepi.tilde.
+*		IN A 10.0.0.99

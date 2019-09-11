@@ -125,3 +125,8 @@ zone "net.tilde" {
 	type master;
 	file "/etc/bind/db.net.tilde";
 };
+
+zone "tildepi.tilde" {
+	type master;
+	file "/etc/bind/db.net.tilde";
+};
