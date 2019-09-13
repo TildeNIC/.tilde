@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     net.tilde. root.net.tilde. (
-                        2019091001      ; Serial
+                        2019091301      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
