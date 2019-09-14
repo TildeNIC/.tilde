@@ -17,5 +17,4 @@ $TTL    604802
 ns1	IN	A	213.239.234.117	
 ns2	IN	A		149.56.184.112
 ns2	IN	AAAA		2607:5300:60:67b0:0:0:0:11
-ns5	IN	CNAME	ns1.master.tilde.
-ns5	IN	CNAME	ns2.master.tilde.
+ns5 IN	A	213.239.234.117
