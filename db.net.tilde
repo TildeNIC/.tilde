@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     net.tilde. root.net.tilde. (
-                        2019091301      ; Serial
+                        2019091801      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -22,6 +22,8 @@ best             IN A	10.0.0.3
 
 thunix           IN A	10.0.0.5
 pink             IN A	10.0.0.10
+
+aussie           IN A 10.0.0.27
 
 thebackupbox	   IN A 10.0.0.41
 l4p1n            IN A	10.0.0.42
