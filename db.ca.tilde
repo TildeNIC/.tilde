@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     master.tilde. root.master.tilde. (
-                        2019012302      ; Serial
+                        2019091801      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -16,3 +16,4 @@ $TTL    604802
         IN	NS      ns5.master.tilde.
 
 @       IN	A       213.239.234.117
+*       IN	A       213.239.234.117
