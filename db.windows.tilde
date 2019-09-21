@@ -8,12 +8,12 @@ $TTL    604802
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
-        IN      CNAME       techshell.l5.ca
+        IN      CNAME       techshell.l5.ca.
 ;
 
 		IN	NS		ns1.master.tilde.
 		IN	NS		ns2.master.tilde.
 		IN	NS		ns5.master.tilde.
 
-@	IN	CNAME	techshell.l5.ca
-*	IN	CNAME	techshell.l5.ca
+@	IN	CNAME	techshell.l5.ca.
+*	IN	CNAME	techshell.l5.ca.
