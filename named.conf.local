@@ -116,11 +116,10 @@ zone "ca.tilde" {
 	file "/etc/bind/db.ca.tilde";
 };
 
-;; Commented out, to fix up the bad apex cname
-;;zone "windows.tilde" {
-;;	type master;
-;;	file "/etc/bind/db.windows.tilde";
-;;};
+//zone "windows.tilde" {
+//	type master;
+//	file "/etc/bind/db.windows.tilde";
+//};
 
 zone "net.tilde" {
 	type master;
