@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     net.tilde. root.net.tilde. (
-                        2019091801      ; Serial
+                        2019100201      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -31,3 +31,10 @@ l4p1n            IN A	10.0.0.42
 team             IN A	10.0.0.48
 
 radiofreqs       IN A 10.0.0.73
+
+; Non-root members
+
+;; Thunix nodes
+tildepi          IN A 10.0.1.5
+supersaiyan      IN A 10.0.1.10
+uberphone        IN A 10.0.1.12
