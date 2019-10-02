@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     thunix.tilde. root.thunix.tilde. (
-                        2019090801      ; Serial
+                        2019100201      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -18,3 +18,8 @@ $TTL    604802
 @		IN	A	10.0.0.5
 @		IN	MX	10 thunix.tilde.
 *		IN A 10.0.0.5
+
+;; VPN clients that requested DNS records 
+tildepi          IN A 10.0.1.5
+supersaiyan      IN A 10.0.1.10
+uberphone        IN A 10.0.1.12
