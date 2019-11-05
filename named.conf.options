@@ -18,6 +18,7 @@ options {
 		allow-query { any; };
 		allow-query-cache { any; };
 		version "[hidden]";
+		rate-limit { all-per-second 6; };
 
 	//========================================================================
 	// If BIND logs error messages about the root key being expired,
