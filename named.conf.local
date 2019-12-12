@@ -16,11 +16,6 @@ zone "nic.tilde" {
 	file "/etc/bind/db.nic.tilde";
 };
 
-zone "your.tilde" {
-	type master; 
-	file "/etc/bind/db.your.tilde";
-};
-
 zone "cosmic.tilde" {
 	type master;
 	file "/etc/bind/db.cosmic.tilde";
