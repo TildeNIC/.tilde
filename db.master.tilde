@@ -3,12 +3,13 @@
 ;
 $TTL    604802
 @       IN      SOA     master.tilde. root.master.tilde. (
-                        2019082201     ; Serial
+                        2019121201     ; Serial
                         604800         ; Refresh
                         86400          ; Retry
                         2419200        ; Expire
                         604800 )       ; Negative Cache TTL
-	IN	A	139.59.215.24 
+	IN	A	149.56.184.112
+  IN	A 213.239.234.117
 ;
 	IN	NS		ns1.master.tilde.
 	IN	NS		ns2.master.tilde.
