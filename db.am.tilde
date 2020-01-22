@@ -1,5 +1,5 @@
 ;
-; BIND data file for a.tilde 
+; BIND data file for am.tilde 
 ;
 $TTL    604802
 @       IN      SOA     master.tilde. root.master.tilde. (

@@ -132,6 +132,6 @@ zone "club.tilde" {
 zone "anton.tilde" {
 	type master;
 	file"/etc/bind/db.anton.tilde";
-zone "a.tilde" {
+zone "am.tilde" {
 	type master;
-	file "/etc/bind/db.a.tilde";
+	file "/etc/bind/db.am.tilde";
