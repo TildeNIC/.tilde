@@ -137,3 +137,8 @@ zone "am.tilde" {
 	type master;
 	file "/etc/bind/db.am.tilde";
 };
+
+zone "paper.tilde" {
+	type master;
+	file "/etc/bind/db.paper.tilde";
+};
