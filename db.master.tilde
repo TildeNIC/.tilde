@@ -9,7 +9,8 @@ $TTL    604802
                         2419200        ; Expire
                         604800 )       ; Negative Cache TTL
 	IN	A	149.56.184.112
-  IN	A 213.239.234.117
+  IN	A 188.40.73.235
+  IN    AAAA 2a01:4f8:221:907::10
 ;
 	IN	NS		ns1.master.tilde.
 	IN	NS		ns2.master.tilde.
