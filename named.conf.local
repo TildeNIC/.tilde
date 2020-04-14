@@ -36,7 +36,7 @@ zone "town.tilde" {
 	file "/etc/bind/db.town.tilde";
 };
 
-zone "thunix.tilde" IN {
+zone "thunix.tilde" {
 	type master; 
 	file "/etc/bind/db.thunix.tilde";
 };
@@ -125,14 +125,17 @@ zone "tildepi.tilde" {
 	type master;
 	file "/etc/bind/db.tildepi.tilde";
 };
+
 zone "club.tilde" {
 	type master;
 	file "/etc/bind/db.club.tilde";
 };
+
 zone "anton.tilde" {
 	type master;
 	file"/etc/bind/db.anton.tilde";
 };
+
 zone "am.tilde" {
 	type master;
 	file "/etc/bind/db.am.tilde";
