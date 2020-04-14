@@ -18,8 +18,11 @@ options {
 		allow-query { any; };
 		allow-query-cache { any; };
 		version "[hidden]";
-		rate-limit { all-per-second 6; };
-
+//		rate-limit { all-per-second 6; };
+    rate-limit {
+            responses-per-second 10;
+            window 5;
+    };
 	//========================================================================
 	// If BIND logs error messages about the root key being expired,
 	// you will need to update your keys.  See https://www.isc.org/bind-keys
