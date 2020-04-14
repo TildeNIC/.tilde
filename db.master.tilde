@@ -3,12 +3,11 @@
 ;
 $TTL    604802
 @       IN      SOA     master.tilde. root.master.tilde. (
-                        2020041301     ; Serial
+                        2020041401     ; Serial
                         604800         ; Refresh
                         86400          ; Retry
                         2419200        ; Expire
                         604800 )       ; Negative Cache TTL
-	IN	A	149.56.184.112
   IN	A 188.40.73.235
   IN    AAAA 2a01:4f8:221:907::10
 ;
