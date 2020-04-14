@@ -3,7 +3,7 @@
 ;
 $TTL    604802
 @       IN      SOA     thunix.tilde. root.thunix.tilde. (
-                        2019100201      ; Serial
+                        2020041401      ; Serial
                          604800         ; Refresh
                           86400         ; Retry
                         2419200         ; Expire
@@ -13,7 +13,6 @@ $TTL    604802
 
 		IN	NS		ns1.master.tilde.
 		IN	NS		ns2.master.tilde.
-		IN	NS		.master.tilde.
 
 @		IN	A	10.0.0.5
 @		IN	MX	10 thunix.tilde.
