@@ -12,6 +12,6 @@ $TTL    604802
 ;
 @       IN      NS      ns1.master.tilde.
 @		IN		NS		ns2.master.tilde.
-@		IN		NS		ns5.master.tilde.
+@		IN		NS		.master.tilde.
 @       IN      A       142.44.251.173
 @		IN		AAAA	2607:5300:60:6e94::10

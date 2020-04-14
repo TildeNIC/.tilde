@@ -13,7 +13,7 @@ $TTL    604802
 
 		IN	NS		ns1.master.tilde.
 		IN	NS		ns2.master.tilde.
-		IN	NS		ns5.master.tilde.
+		IN	NS		.master.tilde.
 
 @		IN	A	10.0.1.5
 @		IN	MX	10 tildepi.tilde.
