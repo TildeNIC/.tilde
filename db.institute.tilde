@@ -12,6 +12,7 @@ $TTL    604802
 ;
 
 		IN	NS		ns1.master.tilde.
+		IN	NS		ns2.master.tilde.
 
 @       IN      A       116.203.17.87
 *       IN      A       116.203.17.87
