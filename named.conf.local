@@ -149,4 +149,4 @@ zone "paper.tilde" {
 zone "julian.tilde" {
 	type master;
 	file "/etc/bind/db.julian.tilde";
-}
+};
