@@ -1,40 +1,40 @@
 zone "team.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "git.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "news.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "ci.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "lists.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "mastodon.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "pleroma.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
 zone "chat.tilde" {
         type slave;
-        masters { 198.50.128.75; };
+        masters { 192.99.181.240; };
 };
 
