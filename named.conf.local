@@ -150,3 +150,8 @@ zone "julian.tilde" {
 	type master;
 	file "/etc/bind/db.julian.tilde";
 };
+
+zone "tetrinet.tilde" {
+    type master;
+    file "/etc/bind/db.tetrinet.tilde";
+};
