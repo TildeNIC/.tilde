@@ -8,17 +8,11 @@ $TTL    604802
                           86400         ; Retry
                         2419200         ; Expire
                          604800 )       ; Negative Cache TTL
-        IN      A       10.0.0.5
+        IN      A       142.44.150.185
 ;
 
 		IN	NS		ns1.master.tilde.
 		IN	NS		ns2.master.tilde.
 
-@		IN	A	10.0.0.5
-@		IN	MX	10 thunix.tilde.
-*		IN A 10.0.0.5
-
-;; VPN clients that requested DNS records 
-tildepi          IN A 10.0.1.5
-supersaiyan      IN A 10.0.1.10
-uberphone        IN A 10.0.1.12
+@		IN	A	142.44.150.185
+*		IN      A       142.44.150.185
