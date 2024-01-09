@@ -1,18 +1,14 @@
+; BIND data file for thunix.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.thunix.tilde. (
+                 2024010901 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
 ;
-; BIND data file for thunix.tilde 
-;
-$TTL    604802
-@       IN      SOA     thunix.tilde. root.thunix.tilde. (
-                        2020041401      ; Serial
-                         604800         ; Refresh
-                          86400         ; Retry
-                        2419200         ; Expire
-                         604800 )       ; Negative Cache TTL
-        IN      A       142.44.150.185
-;
-
-		IN	NS		ns1.master.tilde.
-		IN	NS		ns2.master.tilde.
-
-@		IN	A	142.44.150.185
-*		IN      A       142.44.150.185
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+www     IN      CNAME   thunix.tilde
+@       IN      A       142.44.150.185
+*       IN      A       142.44.150.185
