@@ -1,129 +1,8 @@
-//
-// Do any local configuration here
-//
-
-// Consider adding the 1918 zones here, if they are not used in your
-// organization
-//include "/etc/bind/zones.rfc1918";
-
-zone "master.tilde" {
-	type master;
-	file "/etc/bind/db.master.tilde";
-};
-
-zone "nic.tilde" {
-	type master;
-	file "/etc/bind/db.nic.tilde";
-};
-
-zone "cosmic.tilde" {
-	type master;
-	file "/etc/bind/db.cosmic.tilde";
-};
-
-zone "ubergeek.tilde" {
-	type master;
-	file "/etc/bind/db.ubergeek.tilde";
-};
-
-zone "tilde.tilde" {
-	type master;
-	file "/etc/bind/db.tilde.tilde";
-};
-
-zone "town.tilde" {
-	type master;
-	file "/etc/bind/db.town.tilde";
-};
+// Dynamic BIND configuration
 
 zone "thunix.tilde" {
-	type master; 
+	type master;
 	file "/etc/bind/db.thunix.tilde";
-};
-
-zone "institute.tilde" {
-	type master;
-	file "/etc/bind/db.institute.tilde";
-};
-
-zone "crawl.tilde" {
-	type master;
-	file "/etc/bind/db.crawl.tilde";
-};
-
-zone "kneezle.tilde" {
-	type master;
-	file "/etc/bind/db.kneezle.tilde";
-};
-
-zone "amcclure.tilde" {
-	type master;
-	file "/etc/bind/db.amcclure.tilde";
-};
-
-zone "jan6.tilde" {
-	type master;
-	file "/etc/bind/db.jan6.tilde";
-};
-
-zone "summit.tilde" {
-	type master;
-	file "/etc/bind/db.summit.tilde";
-};
-
-zone "os.tilde" {
-	type master;
-	file "/etc/bind/db.os.tilde";
-};
-
-zone "wiki.tilde" {
-	type master;
-	file "/etc/bind/db.wiki.tilde";
-};
-
-zone "forums.tilde" {
-	type master;
-	file "/etc/bind/db.forums.tilde";
-};
-
-zone "search.tilde" {
-	type master;
-	file "/etc/bind/db.search.tilde";
-};
-
-zone "cutie.tilde" {
-	type master;
-	file "/etc/bind/db.cutie.tilde";
-};
-
-zone "global.tilde" {
-	type master;
-	file "/etc/bind/db.global.tilde";
-};
-
-zone "best.tilde" {
-	type master;
-	file "/etc/bind/db.best.tilde";
-};
-
-zone "ca.tilde" {
-	type master;
-	file "/etc/bind/db.ca.tilde";
-};
-
-zone "windows.tilde" {
-	type master;
-	file "/etc/bind/db.windows.tilde";
-};
-
-zone "net.tilde" {
-	type master;
-	file "/etc/bind/db.net.tilde";
-};
-
-zone "tildepi.tilde" {
-	type master;
-	file "/etc/bind/db.tildepi.tilde";
 };
 
 zone "club.tilde" {
@@ -131,27 +10,8 @@ zone "club.tilde" {
 	file "/etc/bind/db.club.tilde";
 };
 
-zone "anton.tilde" {
+zone "your.tilde" {
 	type master;
-	file"/etc/bind/db.anton.tilde";
+	file "/etc/bind/db.your.tilde";
 };
 
-zone "am.tilde" {
-	type master;
-	file "/etc/bind/db.am.tilde";
-};
-
-zone "paper.tilde" {
-	type master;
-	file "/etc/bind/db.paper.tilde";
-};
-
-zone "julian.tilde" {
-	type master;
-	file "/etc/bind/db.julian.tilde";
-};
-
-zone "tetrinet.tilde" {
-    type master;
-    file "/etc/bind/db.tetrinet.tilde";
-};
