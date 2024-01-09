@@ -15,8 +15,3 @@ zone "your.tilde" {
 	file "/etc/bind/db.your.tilde";
 };
 
-zone "stuff.tilde" {
-	type master;
-	file "/etc/bind/db.stuff.tilde";
-};
-
