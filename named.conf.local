@@ -20,3 +20,8 @@ zone "ben.tilde" {
 	file "/etc/bind/db.ben.tilde";
 };
 
+zone "team.tilde" {
+	type master;
+	file "/etc/bind/db.team.tilde";
+};
+
