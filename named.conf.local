@@ -15,3 +15,8 @@ zone "your.tilde" {
 	file "/etc/bind/db.your.tilde";
 };
 
+zone "ben.tilde" {
+	type master;
+	file "/etc/bind/db.ben.tilde";
+};
+
