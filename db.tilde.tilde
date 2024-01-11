@@ -10,4 +10,4 @@ $TTL    86400
                         86400 )       ; Negative Cache TTL
 ;
 tilde.	  IN	  NS		ns1.ca.tildenic.org.
-tilde.	  IN	  NS		ns2.ca.tildenic.org.
+tilde.	  IN	  NS		ns2.de.tildenic.org.
