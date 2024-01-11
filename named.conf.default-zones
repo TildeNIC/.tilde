@@ -13,8 +13,16 @@ zone "localhost" {
 };
 
 zone "tilde" {
-	type master;
-	file "/etc/bind/db.tilde.tilde";
+        type master;
+        file "/etc/bind/db.tilde.tilde";
+};
+zone "master.tilde" {
+        type master;
+        file "/etc/bind/db.master.tilde";
+};
+zone "nic.tilde" {
+        type master;
+        file "/etc/bind/db.nic.tilde";
 };
 
 zone "127.in-addr.arpa" {
