@@ -8,4 +8,6 @@ cp /var/tilde/db* /etc/bind/
 
 cp /var/tilde/named.conf.* /etc/bind/
 
+cp /var/tilde/named.conf /etc/bind/
+
 systemctl reload bind9
