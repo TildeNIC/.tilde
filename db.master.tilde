@@ -13,4 +13,4 @@ $TTL    86400
 	IN	NS		ns2.master.tilde.
 
 ns1 IN  A  142.44.150.187
-ns2 IN  A  142.44.150.187
+ns2 IN  A  54.37.73.49
