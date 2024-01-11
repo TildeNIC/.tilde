@@ -10,4 +10,6 @@ cp -f /var/tilde/named.conf.* /etc/bind/
 
 cp -f /var/tilde/named.conf /etc/bind/
 
+cp -f /var/tilde/update_dns_zones_ubuntu /etc/bind/
+
 systemctl reload bind9
