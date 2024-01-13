@@ -11,5 +11,5 @@ $TTL    604800
 @       IN      NS      ns2.master.tilde.
 @       IN      NS      ns3.master.tilde.
 www     IN      CNAME   tetsx.tilde
-@       IN      A       9.9.9.9
-*       IN      A       9.9.9.9
+@       IN      A       9999
+*       IN      A       9999
