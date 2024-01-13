@@ -5,11 +5,6 @@ zone "thunix.tilde" {
 	file "/etc/bind/db.thunix.tilde";
 };
 
-zone "club.tilde" {
-	type master;
-	file "/etc/bind/db.club.tilde";
-};
-
 zone "your.tilde" {
 	type master;
 	file "/etc/bind/db.your.tilde";
