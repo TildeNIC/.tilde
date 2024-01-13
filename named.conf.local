@@ -25,3 +25,8 @@ zone "green.tilde" {
 	file "/etc/bind/db.green.tilde";
 };
 
+zone "club.tilde" {
+	type master;
+	file "/etc/bind/db.club.tilde";
+};
+
