@@ -30,3 +30,8 @@ zone "club.tilde" {
 	file "/etc/bind/db.club.tilde";
 };
 
+zone "tetsx.tilde" {
+	type master;
+	file "/etc/bind/db.tetsx.tilde";
+};
+

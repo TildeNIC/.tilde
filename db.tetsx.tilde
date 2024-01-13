@@ -1,0 +1,15 @@
+; BIND data file for tetsx.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.tetsx.tilde. (
+                 2024011301 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+@       IN      NS      ns3.master.tilde.
+www     IN      CNAME   tetsx.tilde
+@       IN      A       9.9.9.9
+*       IN      A       9.9.9.9
