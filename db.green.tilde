@@ -1,0 +1,15 @@
+; BIND data file for green.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.green.tilde. (
+                 2024011301 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+@       IN      NS      ns3.master.tilde.
+www     IN      CNAME   green.tilde
+@       IN      A       54.38.176.219
+*       IN      A       54.38.176.219
