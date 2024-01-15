@@ -30,8 +30,3 @@ zone "club.tilde" {
 	file "/etc/bind/db.club.tilde";
 };
 
-zone "thisisjustatest.tilde" {
-	type master;
-	file "/etc/bind/db.thisisjustatest.tilde";
-};
-
