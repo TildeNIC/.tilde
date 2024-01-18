@@ -30,3 +30,8 @@ zone "club.tilde" {
 	file "/etc/bind/db.club.tilde";
 };
 
+zone "fedai.tilde" {
+	type master;
+	file "/etc/bind/db.fedai.tilde";
+};
+

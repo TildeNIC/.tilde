@@ -1,0 +1,15 @@
+; BIND data file for fedai.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.fedai.tilde. (
+                 2024011801 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+@       IN      NS      ns3.master.tilde.
+www     IN      CNAME   fedai.tilde
+@       IN      A       
+*       IN      A       
