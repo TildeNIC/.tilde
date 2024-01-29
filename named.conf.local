@@ -35,8 +35,3 @@ zone "fedai.tilde" {
 	file "/etc/bind/db.fedai.tilde";
 };
 
-zone "iex.tilde" {
-	type master;
-	file "/etc/bind/db.iex.tilde";
-};
-
