@@ -35,3 +35,8 @@ zone "fedai.tilde" {
 	file "/etc/bind/db.fedai.tilde";
 };
 
+zone "okgit.tilde" {
+	type master;
+	file "/etc/bind/db.okgit.tilde";
+};
+
