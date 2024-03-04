@@ -11,4 +11,3 @@ $TTL    86400
 ;
 tilde.	  IN	  NS		ns1.ca.tildenic.org.
 tilde.	  IN	  NS		ns2.de.tildenic.org.
-tilde.    IN      NS        ns3.au.tildenic.org.

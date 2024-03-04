@@ -9,7 +9,6 @@ $TTL    604800
 ;
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
-@       IN      NS      ns3.master.tilde.
 www     IN      CNAME   team.tilde
 @       IN      A       198.50.210.248
 *       IN      A       198.50.210.248
