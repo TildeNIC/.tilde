@@ -40,3 +40,13 @@ zone "okgit.tilde" {
 	file "/etc/bind/db.okgit.tilde";
 };
 
+zone "krish.tilde" {
+	type master;
+	file "/etc/bind/db.krish.tilde";
+};
+
+zone "xkrish.tilde" {
+	type master;
+	file "/etc/bind/db.xkrish.tilde";
+};
+
