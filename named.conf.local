@@ -50,3 +50,18 @@ zone "xkrish.tilde" {
 	file "/etc/bind/db.xkrish.tilde";
 };
 
+zone "sovereign.tilde" {
+	type master;
+	file "/etc/bind/db.sovereign.tilde";
+};
+
+zone "relay.tilde" {
+	type master;
+	file "/etc/bind/db.relay.tilde";
+};
+
+zone "dev.tilde" {
+	type master;
+	file "/etc/bind/db.dev.tilde";
+};
+
