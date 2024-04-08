@@ -65,26 +65,6 @@ zone "dev.tilde" {
 	file "/etc/bind/db.dev.tilde";
 };
 
-zone "notifications.tilde" {
-	type master;
-	file "/etc/bind/db.notifications.tilde";
-};
-
-zone "uptime.tilde" {
-	type master;
-	file "/etc/bind/db.uptime.tilde";
-};
-
-zone "a.tilde" {
-	type master;
-	file "/etc/bind/db.a.tilde";
-};
-
-zone "irc.tilde" {
-	type master;
-	file "/etc/bind/db.irc.tilde";
-};
-
 zone "ma.tilde" {
 	type master;
 	file "/etc/bind/db.ma.tilde";
