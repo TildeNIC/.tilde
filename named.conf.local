@@ -70,3 +70,8 @@ zone "ma.tilde" {
 	file "/etc/bind/db.ma.tilde";
 };
 
+zone "hydroakri.tilde" {
+	type master;
+	file "/etc/bind/db.hydroakri.tilde";
+};
+
