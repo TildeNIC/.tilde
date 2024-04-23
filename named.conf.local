@@ -75,3 +75,8 @@ zone "hydroakri.tilde" {
 	file "/etc/bind/db.hydroakri.tilde";
 };
 
+zone "clo.tilde" {
+	type master;
+	file "/etc/bind/db.clo.tilde";
+};
+
