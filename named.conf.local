@@ -80,3 +80,13 @@ zone "clo.tilde" {
 	file "/etc/bind/db.clo.tilde";
 };
 
+zone "fengf.tilde" {
+	type master;
+	file "/etc/bind/db.fengf.tilde";
+};
+
+zone "heplib.tilde" {
+	type master;
+	file "/etc/bind/db.heplib.tilde";
+};
+
