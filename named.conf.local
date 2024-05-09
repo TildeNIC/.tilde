@@ -90,3 +90,8 @@ zone "heplib.tilde" {
 	file "/etc/bind/db.heplib.tilde";
 };
 
+zone "luckystar.tilde" {
+	type master;
+	file "/etc/bind/db.luckystar.tilde";
+};
+
