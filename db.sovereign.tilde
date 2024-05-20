@@ -10,5 +10,5 @@ $TTL    604800
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
 www     IN      CNAME   sovereign.tilde
-@       IN      A       
-*       IN      A       
+@       IN      A       149.50.132.133
+*       IN      A       149.50.132.133
