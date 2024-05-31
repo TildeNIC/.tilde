@@ -95,3 +95,8 @@ zone "luckystar.tilde" {
 	file "/etc/bind/db.luckystar.tilde";
 };
 
+zone "w3eradigital.tilde" {
+	type master;
+	file "/etc/bind/db.w3eradigital.tilde";
+};
+
