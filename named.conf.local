@@ -100,3 +100,8 @@ zone "w3eradigital.tilde" {
 	file "/etc/bind/db.w3eradigital.tilde";
 };
 
+zone "garnier.tilde" {
+	type master;
+	file "/etc/bind/db.garnier.tilde";
+};
+
