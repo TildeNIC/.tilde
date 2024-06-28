@@ -105,3 +105,8 @@ zone "garnier.tilde" {
 	file "/etc/bind/db.garnier.tilde";
 };
 
+zone "tade.tilde" {
+	type master;
+	file "/etc/bind/db.tade.tilde";
+};
+
