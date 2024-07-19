@@ -110,3 +110,8 @@ zone "tade.tilde" {
 	file "/etc/bind/db.tade.tilde";
 };
 
+zone "muesli.tilde" {
+	type master;
+	file "/etc/bind/db.muesli.tilde";
+};
+
