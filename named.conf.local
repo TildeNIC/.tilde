@@ -120,3 +120,13 @@ zone "omorrigan.tilde" {
 	file "/etc/bind/db.omorrigan.tilde";
 };
 
+zone "r00t-gh0st.tilde" {
+	type master;
+	file "/etc/bind/db.r00t-gh0st.tilde";
+};
+
+zone "r00ted-be.tilde" {
+	type master;
+	file "/etc/bind/db.r00ted-be.tilde";
+};
+
