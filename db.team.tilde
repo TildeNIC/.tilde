@@ -1,7 +1,7 @@
 ; BIND data file for team.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.team.tilde. (
-                 2024082701 ; Serial
+                 2024082801 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
