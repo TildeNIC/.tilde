@@ -1,7 +1,7 @@
 ; BIND data file for r00t-gh0st.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.r00t-gh0st.tilde. (
-                 2024091501 ; Serial
+                 2024091601 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
