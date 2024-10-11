@@ -10,5 +10,5 @@ $TTL    604800
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
 www     IN      CNAME   totalchaos.tilde
-@       IN      A       
-*       IN      A       
+@       IN      A       47.187.127.192
+*       IN      A       47.187.127.192
