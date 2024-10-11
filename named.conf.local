@@ -140,3 +140,8 @@ zone "totalchaos.tilde" {
 	file "/etc/bind/db.totalchaos.tilde";
 };
 
+zone "whose.tilde" {
+	type master;
+	file "/etc/bind/db.whose.tilde";
+};
+
