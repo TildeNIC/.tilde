@@ -130,3 +130,8 @@ zone "r00ted-be.tilde" {
 	file "/etc/bind/db.r00ted-be.tilde";
 };
 
+zone "basil.tilde" {
+	type master;
+	file "/etc/bind/db.basil.tilde";
+};
+
