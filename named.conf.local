@@ -145,3 +145,8 @@ zone "whose.tilde" {
 	file "/etc/bind/db.whose.tilde";
 };
 
+zone "imagineee.tilde" {
+	type master;
+	file "/etc/bind/db.imagineee.tilde";
+};
+
