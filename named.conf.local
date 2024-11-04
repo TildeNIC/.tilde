@@ -150,3 +150,8 @@ zone "imagineee.tilde" {
 	file "/etc/bind/db.imagineee.tilde";
 };
 
+zone "xspsoft.tilde" {
+	type master;
+	file "/etc/bind/db.xspsoft.tilde";
+};
+
