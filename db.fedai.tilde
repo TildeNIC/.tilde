@@ -1,7 +1,7 @@
 ; BIND data file for fedai.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.fedai.tilde. (
-                 2024112501 ; Serial
+                 2024112601 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
