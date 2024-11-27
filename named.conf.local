@@ -155,3 +155,8 @@ zone "xspsoft.tilde" {
 	file "/etc/bind/db.xspsoft.tilde";
 };
 
+zone "id.tilde" {
+	type master;
+	file "/etc/bind/db.id.tilde";
+};
+
