@@ -1,7 +1,7 @@
 ; BIND data file for clo.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.clo.tilde. (
-                 2024121001 ; Serial
+                 2024121101 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
