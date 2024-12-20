@@ -1,7 +1,7 @@
 ; BIND data file for green.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.green.tilde. (
-                 2024121901 ; Serial
+                 2024122001 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
