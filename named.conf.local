@@ -160,3 +160,8 @@ zone "id.tilde" {
 	file "/etc/bind/db.id.tilde";
 };
 
+zone "la.tilde" {
+	type master;
+	file "/etc/bind/db.la.tilde";
+};
+
