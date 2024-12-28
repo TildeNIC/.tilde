@@ -165,3 +165,8 @@ zone "la.tilde" {
 	file "/etc/bind/db.la.tilde";
 };
 
+zone "rootww.tilde.tilde" {
+	type master;
+	file "/etc/bind/db.rootww.tilde.tilde";
+};
+
