@@ -13,6 +13,7 @@ $TTL    86400
 	IN	NS		ns2.master.tilde.
     IN  NS      ns3.master.tilde.
 
-ns1 IN  A      142.44.150.187
-ns2 IN  A      54.37.73.49
-ns2 IN  AAAA   2001:41d0:701:1100::123a
+ns1 IN  A      66.70.189.77
+ns1 IN  AAAA   2607:5300:201:3100::93c2
+ns2 IN  A      142.44.150.184
+ns2 IN  AAAA   2607:5300:203:31b6::115
