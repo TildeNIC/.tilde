@@ -8,4 +8,7 @@ $TTL    604800
                  604800 )   ; Negative Cache TTL
 ;
 @       IN      NS      ns1.master.tilde.
-@       IN      NS      ns2.master.tilde. 
+@       IN      NS      ns2.master.tilde.
+www     IN      CNAME   imagineee.tilde
+@       IN      A       
+*       IN      A       
