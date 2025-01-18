@@ -11,7 +11,6 @@ $TTL    86400
 ;
 	IN	NS		ns1.master.tilde.
 	IN	NS		ns2.master.tilde.
-    IN  NS      ns3.master.tilde.
 
 ns1 IN  A      66.70.189.77
 ns1 IN  AAAA   2607:5300:201:3100::93c2
