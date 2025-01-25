@@ -180,3 +180,8 @@ zone "david.tilde" {
 	file "/etc/bind/db.david.tilde";
 };
 
+zone "coder.tilde" {
+	type master;
+	file "/etc/bind/db.coder.tilde";
+};
+
