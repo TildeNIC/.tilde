@@ -185,3 +185,8 @@ zone "coder.tilde" {
 	file "/etc/bind/db.coder.tilde";
 };
 
+zone "donut.tilde" {
+	type master;
+	file "/etc/bind/db.donut.tilde";
+};
+
