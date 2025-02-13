@@ -195,3 +195,18 @@ zone "sunblade.tilde" {
 	file "/etc/bind/db.sunblade.tilde";
 };
 
+zone "nonpaged.tilde" {
+	type master;
+	file "/etc/bind/db.nonpaged.tilde";
+};
+
+zone "a.tilde" {
+	type master;
+	file "/etc/bind/db.a.tilde";
+};
+
+zone "x.tilde" {
+	type master;
+	file "/etc/bind/db.x.tilde";
+};
+
