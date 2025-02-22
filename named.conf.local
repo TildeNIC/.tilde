@@ -215,3 +215,8 @@ zone "anton.tilde" {
 	file "/etc/bind/db.anton.tilde";
 };
 
+zone "ajm.tilde" {
+	type master;
+	file "/etc/bind/db.ajm.tilde";
+};
+
