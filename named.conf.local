@@ -220,3 +220,8 @@ zone "ajm.tilde" {
 	file "/etc/bind/db.ajm.tilde";
 };
 
+zone "cw.tilde" {
+	type master;
+	file "/etc/bind/db.cw.tilde";
+};
+
