@@ -225,3 +225,8 @@ zone "cw.tilde" {
 	file "/etc/bind/db.cw.tilde";
 };
 
+zone "theonecurly.tilde" {
+	type master;
+	file "/etc/bind/db.theonecurly.tilde";
+};
+
