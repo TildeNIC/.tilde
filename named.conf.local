@@ -225,6 +225,11 @@ zone "theonecurly.tilde" {
 	file "/etc/bind/db.theonecurly.tilde";
 };
 
+zone "green.tilde" {
+	type master;
+	file "/etc/bind/db.green.tilde";
+};
+
 zone "olive.tilde" {
 	type master;
 	file "/etc/bind/db.olive.tilde";
