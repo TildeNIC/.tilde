@@ -250,3 +250,8 @@ zone "mcclure.tilde" {
 	file "/etc/bind/db.mcclure.tilde";
 };
 
+zone "next.tilde" {
+	type master;
+	file "/etc/bind/db.next.tilde";
+};
+
