@@ -235,3 +235,8 @@ zone "olive.tilde" {
 	file "/etc/bind/db.olive.tilde";
 };
 
+zone "acidcat.tilde" {
+	type master;
+	file "/etc/bind/db.acidcat.tilde";
+};
+
