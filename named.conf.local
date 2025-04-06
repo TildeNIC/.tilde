@@ -240,3 +240,8 @@ zone "acidcat.tilde" {
 	file "/etc/bind/db.acidcat.tilde";
 };
 
+zone "ashellm.tilde" {
+	type master;
+	file "/etc/bind/db.ashellm.tilde";
+};
+
