@@ -245,3 +245,8 @@ zone "ashellm.tilde" {
 	file "/etc/bind/db.ashellm.tilde";
 };
 
+zone "mcclure.tilde" {
+	type master;
+	file "/etc/bind/db.mcclure.tilde";
+};
+
