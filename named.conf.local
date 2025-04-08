@@ -255,3 +255,8 @@ zone "next.tilde" {
 	file "/etc/bind/db.next.tilde";
 };
 
+zone "camelia.tilde" {
+	type master;
+	file "/etc/bind/db.camelia.tilde";
+};
+
