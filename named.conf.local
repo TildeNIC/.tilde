@@ -260,3 +260,8 @@ zone "camelia.tilde" {
 	file "/etc/bind/db.camelia.tilde";
 };
 
+zone "prfa.tilde" {
+	type master;
+	file "/etc/bind/db.prfa.tilde";
+};
+
