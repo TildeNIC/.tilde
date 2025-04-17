@@ -1,7 +1,7 @@
 ; BIND data file for mcclure.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.mcclure.tilde. (
-                 2025041601 ; Serial
+                 2025041701 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
