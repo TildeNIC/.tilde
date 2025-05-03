@@ -1,7 +1,7 @@
 ; BIND data file for fengf.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.fengf.tilde. (
-                 2025050201 ; Serial
+                 2025050301 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
