@@ -265,3 +265,8 @@ zone "prfa.tilde" {
 	file "/etc/bind/db.prfa.tilde";
 };
 
+zone "nanayaw.tilde" {
+	type master;
+	file "/etc/bind/db.nanayaw.tilde";
+};
+
