@@ -1,6 +1,6 @@
-; BIND data file for nix.tilde
+; BIND data file for www.tilde
 $TTL    604800
-@       IN      SOA     ns1.master.tilde. root.nix.tilde. (
+@       IN      SOA     ns1.master.tilde. root.www.tilde. (
                  2025050901 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
@@ -9,6 +9,6 @@ $TTL    604800
 ;
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
-www     IN      CNAME   nix.tilde
+www     IN      CNAME   www.tilde
 @       IN      A       162.198.140.77
 *       IN      A       162.198.140.77

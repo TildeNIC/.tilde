@@ -275,3 +275,13 @@ zone "nix.tilde" {
 	file "/etc/bind/db.nix.tilde";
 };
 
+zone "the.tilde" {
+	type master;
+	file "/etc/bind/db.the.tilde";
+};
+
+zone "www.tilde" {
+	type master;
+	file "/etc/bind/db.www.tilde";
+};
+
