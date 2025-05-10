@@ -270,3 +270,8 @@ zone "nanayaw.tilde" {
 	file "/etc/bind/db.nanayaw.tilde";
 };
 
+zone "nix.tilde" {
+	type master;
+	file "/etc/bind/db.nix.tilde";
+};
+
