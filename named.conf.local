@@ -285,3 +285,8 @@ zone "www.tilde" {
 	file "/etc/bind/db.www.tilde";
 };
 
+zone "markdriscoll.tilde" {
+	type master;
+	file "/etc/bind/db.markdriscoll.tilde";
+};
+
