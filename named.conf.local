@@ -290,8 +290,3 @@ zone "markdriscoll.tilde" {
 	file "/etc/bind/db.markdriscoll.tilde";
 };
 
-zone "dee.tilde" {
-	type master;
-	file "/etc/bind/db.dee.tilde";
-};
-
