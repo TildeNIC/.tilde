@@ -300,3 +300,8 @@ zone "ralsei.tilde" {
 	file "/etc/bind/db.ralsei.tilde";
 };
 
+zone "ibrahim.tilde" {
+	type master;
+	file "/etc/bind/db.ibrahim.tilde";
+};
+
