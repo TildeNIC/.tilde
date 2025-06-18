@@ -305,8 +305,3 @@ zone "ibrahim.tilde" {
 	file "/etc/bind/db.ibrahim.tilde";
 };
 
-zone "testttttt" {
-	type master;
-	file "/etc/bind/db.testttttt";
-};
-
