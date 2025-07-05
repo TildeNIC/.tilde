@@ -1,6 +1,6 @@
-; BIND data file for mcclure.tilde
+; BIND data file for ns2.tilde
 $TTL    604800
-@       IN      SOA     ns1.master.tilde. root.mcclure.tilde. (
+@       IN      SOA     ns1.master.tilde. root.ns2.tilde. (
                  2025070501 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
@@ -9,6 +9,6 @@ $TTL    604800
 ;
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
-www     IN      CNAME   mcclure.tilde
-@       IN      A       135.148.100.14
-*       IN      A       135.148.100.14
+www     IN      CNAME   ns2.tilde
+@       IN      A       
+*       IN      A       
