@@ -315,13 +315,3 @@ zone "i.tilde" {
 	file "/etc/bind/db.i.tilde";
 };
 
-zone "ns1.tilde" {
-	type master;
-	file "/etc/bind/db.ns1.tilde";
-};
-
-zone "ns2.tilde" {
-	type master;
-	file "/etc/bind/db.ns2.tilde";
-};
-
