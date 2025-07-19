@@ -315,3 +315,8 @@ zone "i.tilde" {
 	file "/etc/bind/db.i.tilde";
 };
 
+zone "mayx.tilde" {
+	type master;
+	file "/etc/bind/db.mayx.tilde";
+};
+
