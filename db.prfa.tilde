@@ -1,7 +1,7 @@
 ; BIND data file for prfa.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.prfa.tilde. (
-                 2025073101 ; Serial
+                 2025080101 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
