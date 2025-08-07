@@ -320,3 +320,8 @@ zone "mayx.tilde" {
 	file "/etc/bind/db.mayx.tilde";
 };
 
+zone "sneak.tilde.tilde" {
+	type master;
+	file "/etc/bind/db.sneak.tilde.tilde";
+};
+
