@@ -330,3 +330,8 @@ zone "sneak.tilde" {
 	file "/etc/bind/db.sneak.tilde";
 };
 
+zone "testai.tilde" {
+	type master;
+	file "/etc/bind/db.testai.tilde";
+};
+
