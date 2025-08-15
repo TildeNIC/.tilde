@@ -335,3 +335,8 @@ zone "testai.tilde" {
 	file "/etc/bind/db.testai.tilde";
 };
 
+zone "tydes.tilde" {
+	type master;
+	file "/etc/bind/db.tydes.tilde";
+};
+
