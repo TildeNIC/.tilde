@@ -1,7 +1,7 @@
 ; BIND data file for whose.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.whose.tilde. (
-                 2025081501 ; Serial
+                 2025081601 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
