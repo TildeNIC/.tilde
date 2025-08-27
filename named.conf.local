@@ -340,8 +340,3 @@ zone "tydes.tilde" {
 	file "/etc/bind/db.tydes.tilde";
 };
 
-zone "whatisthisomg.tilde" {
-	type master;
-	file "/etc/bind/db.whatisthisomg.tilde";
-};
-
