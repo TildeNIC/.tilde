@@ -10,5 +10,5 @@ $TTL    604800
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
 www     IN      CNAME   wowowow.tilde
-@       IN      A       127.0.0.1
-*       IN      A       127.0.0.1
+@       IN      A       216.150.56.162
+*       IN      A       216.150.56.162
