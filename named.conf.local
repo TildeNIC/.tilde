@@ -345,3 +345,8 @@ zone "wowowow.tilde" {
 	file "/etc/bind/db.wowowow.tilde";
 };
 
+zone "wasadasdas.tilde" {
+	type master;
+	file "/etc/bind/db.wasadasdas.tilde";
+};
+
