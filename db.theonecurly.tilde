@@ -1,7 +1,7 @@
 ; BIND data file for theonecurly.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.theonecurly.tilde. (
-                 2025090701 ; Serial
+                 2025090801 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
