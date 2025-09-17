@@ -350,3 +350,8 @@ zone "wasadasdas.tilde" {
 	file "/etc/bind/db.wasadasdas.tilde";
 };
 
+zone "80s1.tilde" {
+	type master;
+	file "/etc/bind/db.80s1.tilde";
+};
+
