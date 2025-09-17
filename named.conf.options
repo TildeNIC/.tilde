@@ -10,6 +10,18 @@ options {
 	// Uncomment the following block, and insert the addresses replacing 
 	// the all-0's placeholder.
 
+    // Classic DNS still on port 53:
+    listen-on     { any; };
+    listen-on-v6  { any; };
+
+    // DoT (DNS over TLS) on 853
+    listen-on     port 853 tls "dns-tls" { any; };
+    listen-on-v6  port 853 tls "dns-tls" { any; };
+
+    // DoH (DNS over HTTPS) on 443 with default endpoint /dns-query
+    listen-on     port 443 tls "dns-tls" http default { any; };
+    listen-on-v6  port 443 tls "dns-tls" http default { any; };
+
 	 forwarders {
 	 //	172.98.193.42;	
 	//	198.206.14.241;	
