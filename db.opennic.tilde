@@ -10,5 +10,5 @@ $TTL    604800
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
 www     IN      CNAME   opennic.tilde
-@       IN      A       
-*       IN      A       
+@       IN      A       149.56.184.115
+*       IN      A       149.56.184.115
