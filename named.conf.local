@@ -355,3 +355,8 @@ zone "80s1.tilde" {
 	file "/etc/bind/db.80s1.tilde";
 };
 
+zone "void.tilde" {
+	type master;
+	file "/etc/bind/db.void.tilde";
+};
+
