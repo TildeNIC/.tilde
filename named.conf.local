@@ -360,3 +360,13 @@ zone "void.tilde" {
 	file "/etc/bind/db.void.tilde";
 };
 
+zone "opennic.tilde" {
+	type master;
+	file "/etc/bind/db.opennic.tilde";
+};
+
+zone "get.tilde" {
+	type master;
+	file "/etc/bind/db.get.tilde";
+};
+
