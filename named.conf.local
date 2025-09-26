@@ -370,3 +370,8 @@ zone "get.tilde" {
 	file "/etc/bind/db.get.tilde";
 };
 
+zone "tildednstest.tilde" {
+	type master;
+	file "/etc/bind/db.tildednstest.tilde";
+};
+
