@@ -390,18 +390,13 @@ zone "youngchief.tilde" {
 	file "/etc/bind/db.youngchief.tilde";
 };
 
-zone "ygcf.tilde" {
-	type master;
-	file "/etc/bind/db.ygcf.tilde";
-};
-
-zone "yngchf.tilde" {
-	type master;
-	file "/etc/bind/db.yngchf.tilde";
-};
-
 zone "423304.tilde" {
 	type master;
 	file "/etc/bind/db.423304.tilde";
+};
+
+zone "as3304.tilde" {
+	type master;
+	file "/etc/bind/db.as3304.tilde";
 };
 
