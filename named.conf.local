@@ -375,3 +375,28 @@ zone "tildednstest.tilde" {
 	file "/etc/bind/db.tildednstest.tilde";
 };
 
+zone "yc.tilde" {
+	type master;
+	file "/etc/bind/db.yc.tilde";
+};
+
+zone "3304.tilde" {
+	type master;
+	file "/etc/bind/db.3304.tilde";
+};
+
+zone "youngchief.tilde" {
+	type master;
+	file "/etc/bind/db.youngchief.tilde";
+};
+
+zone "ygcf.tilde" {
+	type master;
+	file "/etc/bind/db.ygcf.tilde";
+};
+
+zone "yngchf.tilde" {
+	type master;
+	file "/etc/bind/db.yngchf.tilde";
+};
+
