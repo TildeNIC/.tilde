@@ -1,7 +1,7 @@
 ; BIND data file for tade.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.tade.tilde. (
-                 2025102501 ; Serial
+                 2025102601 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
