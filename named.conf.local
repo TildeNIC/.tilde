@@ -395,3 +395,8 @@ zone "zedomega.tilde" {
 	file "/etc/bind/db.zedomega.tilde";
 };
 
+zone "nox.tilde" {
+	type master;
+	file "/etc/bind/db.nox.tilde";
+};
+
