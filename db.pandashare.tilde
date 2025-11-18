@@ -1,0 +1,14 @@
+; BIND data file for pandashare.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.pandashare.tilde. (
+                 2025111801 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+www     IN      CNAME   pandashare.tilde
+@       IN      A       192.168.100.60
+*       IN      A       192.168.100.60

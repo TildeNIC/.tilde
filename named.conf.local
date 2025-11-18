@@ -400,3 +400,8 @@ zone "nox.tilde" {
 	file "/etc/bind/db.nox.tilde";
 };
 
+zone "pandashare.tilde" {
+	type master;
+	file "/etc/bind/db.pandashare.tilde";
+};
+
