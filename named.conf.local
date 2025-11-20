@@ -405,3 +405,8 @@ zone "pandashare.tilde" {
 	file "/etc/bind/db.pandashare.tilde";
 };
 
+zone "cocaurhi.tilde" {
+	type master;
+	file "/etc/bind/db.cocaurhi.tilde";
+};
+
