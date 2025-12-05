@@ -410,3 +410,8 @@ zone "cocaurhi.tilde" {
 	file "/etc/bind/db.cocaurhi.tilde";
 };
 
+zone "gmac.tilde" {
+	type master;
+	file "/etc/bind/db.gmac.tilde";
+};
+
