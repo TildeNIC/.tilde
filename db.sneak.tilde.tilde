@@ -1,7 +1,7 @@
 ; BIND data file for sneak.tilde.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.sneak.tilde.tilde. (
-                 2025121101 ; Serial
+                 2025121201 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
