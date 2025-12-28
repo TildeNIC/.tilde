@@ -1,7 +1,7 @@
 ; BIND data file for olive.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.olive.tilde. (
-                 2025122701 ; Serial
+                 2025122801 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
