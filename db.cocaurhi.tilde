@@ -1,7 +1,7 @@
 ; BIND data file for cocaurhi.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.cocaurhi.tilde. (
-                 2025123001 ; Serial
+                 2025123101 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
