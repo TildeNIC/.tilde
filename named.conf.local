@@ -415,3 +415,8 @@ zone "gmac.tilde" {
 	file "/etc/bind/db.gmac.tilde";
 };
 
+zone "ionut.tilde" {
+	type master;
+	file "/etc/bind/db.ionut.tilde";
+};
+
