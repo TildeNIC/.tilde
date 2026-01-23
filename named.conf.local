@@ -420,13 +420,3 @@ zone "ionut.tilde" {
 	file "/etc/bind/db.ionut.tilde";
 };
 
-zone "fsky.tilde" {
-	type master;
-	file "/etc/bind/db.fsky.tilde";
-};
-
-zone "telepath.tilde" {
-	type master;
-	file "/etc/bind/db.telepath.tilde";
-};
-
