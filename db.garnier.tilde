@@ -1,7 +1,7 @@
 ; BIND data file for garnier.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.garnier.tilde. (
-                 2026012701 ; Serial
+                 2026012801 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
