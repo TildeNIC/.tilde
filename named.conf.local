@@ -420,3 +420,8 @@ zone "ionut.tilde" {
 	file "/etc/bind/db.ionut.tilde";
 };
 
+zone "searchvista.tilde" {
+	type master;
+	file "/etc/bind/db.searchvista.tilde";
+};
+
