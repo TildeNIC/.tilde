@@ -415,13 +415,13 @@ zone "gmac.tilde" {
 	file "/etc/bind/db.gmac.tilde";
 };
 
-zone "ionut.tilde" {
-	type master;
-	file "/etc/bind/db.ionut.tilde";
-};
-
 zone "searchvista.tilde" {
 	type master;
 	file "/etc/bind/db.searchvista.tilde";
+};
+
+zone "NovaIRC.tilde" {
+	type master;
+	file "/etc/bind/db.NovaIRC.tilde";
 };
 
