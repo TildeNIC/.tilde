@@ -425,3 +425,8 @@ zone "NovaIRC.tilde" {
 	file "/etc/bind/db.NovaIRC.tilde";
 };
 
+zone "silicons.tilde" {
+	type master;
+	file "/etc/bind/db.silicons.tilde";
+};
+
