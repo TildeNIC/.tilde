@@ -1,7 +1,7 @@
 ; BIND data file for okgit.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.okgit.tilde. (
-                 2026020701 ; Serial
+                 2026020801 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
