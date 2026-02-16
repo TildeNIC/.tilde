@@ -1,0 +1,14 @@
+; BIND data file for k0rr.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.k0rr.tilde. (
+                 2026021601 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+www     IN      CNAME   k0rr.tilde
+@       IN      A       
+*       IN      A       

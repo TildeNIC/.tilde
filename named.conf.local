@@ -430,3 +430,8 @@ zone "silicons.tilde" {
 	file "/etc/bind/db.silicons.tilde";
 };
 
+zone "k0rr.tilde" {
+	type master;
+	file "/etc/bind/db.k0rr.tilde";
+};
+
