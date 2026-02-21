@@ -1,7 +1,7 @@
 ; BIND data file for void.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.void.tilde. (
-                 2026022001 ; Serial
+                 2026022101 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
