@@ -10,5 +10,5 @@ $TTL    604800
 @       IN      NS      ns1.master.tilde.
 @       IN      NS      ns2.master.tilde.
 www     IN      CNAME   silicons.tilde
-@       IN      A       160.153.92.101
-*       IN      A       160.153.92.101
+@       IN      A       5.78.31.66
+*       IN      A       5.78.31.66
