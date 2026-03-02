@@ -1,7 +1,7 @@
 ; BIND data file for ibrahim.tilde
 $TTL    604800
 @       IN      SOA     ns1.master.tilde. root.ibrahim.tilde. (
-                 2026030101 ; Serial
+                 2026030201 ; Serial
                  604800     ; Refresh
                  86400      ; Retry
                  2419200    ; Expire
