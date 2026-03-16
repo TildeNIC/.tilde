@@ -435,3 +435,8 @@ zone "k0rr.tilde" {
 	file "/etc/bind/db.k0rr.tilde";
 };
 
+zone "pub.tilde.tilde" {
+	type master;
+	file "/etc/bind/db.pub.tilde.tilde";
+};
+
