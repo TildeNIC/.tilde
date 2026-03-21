@@ -1,0 +1,14 @@
+; BIND data file for dawn.tilde
+$TTL    604800
+@       IN      SOA     ns1.master.tilde. root.dawn.tilde. (
+                 2026032101 ; Serial
+                 604800     ; Refresh
+                 86400      ; Retry
+                 2419200    ; Expire
+                 604800 )   ; Negative Cache TTL
+;
+@       IN      NS      ns1.master.tilde.
+@       IN      NS      ns2.master.tilde.
+www     IN      CNAME   dawn.tilde
+@       IN      A       
+*       IN      A       

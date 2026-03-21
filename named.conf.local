@@ -440,3 +440,8 @@ zone "pub.tilde.tilde" {
 	file "/etc/bind/db.pub.tilde.tilde";
 };
 
+zone "dawn.tilde" {
+	type master;
+	file "/etc/bind/db.dawn.tilde";
+};
+
