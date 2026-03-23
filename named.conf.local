@@ -445,3 +445,8 @@ zone "dawn.tilde" {
 	file "/etc/bind/db.dawn.tilde";
 };
 
+zone "turboblack.tilde" {
+	type master;
+	file "/etc/bind/db.turboblack.tilde";
+};
+
