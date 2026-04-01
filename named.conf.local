@@ -450,3 +450,8 @@ zone "turboblack.tilde" {
 	file "/etc/bind/db.turboblack.tilde";
 };
 
+zone "dessholiday.tilde" {
+	type master;
+	file "/etc/bind/db.dessholiday.tilde";
+};
+
