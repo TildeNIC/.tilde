@@ -455,3 +455,8 @@ zone "dessholiday.tilde" {
 	file "/etc/bind/db.dessholiday.tilde";
 };
 
+zone "lairland.tilde" {
+	type master;
+	file "/etc/bind/db.lairland.tilde";
+};
+
