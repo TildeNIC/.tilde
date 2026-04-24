@@ -460,3 +460,8 @@ zone "lairland.tilde" {
 	file "/etc/bind/db.lairland.tilde";
 };
 
+zone "motz.tilde" {
+	type master;
+	file "/etc/bind/db.motz.tilde";
+};
+
