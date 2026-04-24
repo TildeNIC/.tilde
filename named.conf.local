@@ -465,3 +465,8 @@ zone "motz.tilde" {
 	file "/etc/bind/db.motz.tilde";
 };
 
+zone "mmotz.tilde" {
+	type master;
+	file "/etc/bind/db.mmotz.tilde";
+};
+
